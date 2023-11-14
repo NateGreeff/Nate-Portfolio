@@ -1,0 +1,26 @@
+
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 50px
+}
+
+.about {
+    background-color: rgb(17, 17, 17, 0.7);
+    border-radius: 10px;
+}
+
+.textSection {
+    width: 70%;
+    padding: 20px;
+}
+
+.imgSection {
+    margin-left: 30px;
+}
+
+.imgSection, .imgSection img {
+    height: 400px;
+    width: 300px;
+}

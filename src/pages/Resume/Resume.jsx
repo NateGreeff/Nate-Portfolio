@@ -1,1 +1,5 @@
-export default function Resume() {}
+export default function Resume() {
+    return (
+        <p>Resume</p>
+    )
+}
