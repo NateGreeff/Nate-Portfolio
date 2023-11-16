@@ -1,10 +1,27 @@
-
-
 body {
+    margin: 0;
+    padding: 0;
     background-image: url("./assets/img/45-degree-fabric-light.png");
     background-size: 20% auto;
     background-color: #010303;
     color: white;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    &:hover {
+        color: #848484;
+    }
+}
+
+.background{
+    background-color: rgba(17, 17, 17, 0.6);
+}
+
+.flex {
+    display: flex;
 }
 
 @media screen and (max-width: 1600px) {
