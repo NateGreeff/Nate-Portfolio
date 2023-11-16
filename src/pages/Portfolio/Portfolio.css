@@ -1,0 +1,9 @@
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectContainer:has(.project:hover) .project:not(:hover) {
+    opacity: 0.5;
+    scale: 0.9;
+}
