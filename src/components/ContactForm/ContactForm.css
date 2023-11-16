@@ -1,0 +1,6 @@
+#requiredText {
+    align-self: flex-end;
+    position: absolute;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}

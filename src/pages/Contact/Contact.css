@@ -1,0 +1,13 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contactForm * {
+    margin: 10px 0;
+}
