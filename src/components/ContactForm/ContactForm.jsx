@@ -31,7 +31,7 @@ export default function ContactForm({ ...props }) {
   }, [formData]);
 
   return (
-    <form {...props} action="">
+    <form netlify {...props} action="">
       <span id="requiredText">* Required</span>
       <h1 className="contactTitle">Contact Me</h1>
       <TextField id="nameInput" onChange={handleInputChange} label="Name" name="name" value={formInput.name} fullWidth required />
