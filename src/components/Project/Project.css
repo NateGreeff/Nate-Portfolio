@@ -4,7 +4,6 @@
     align-items: end;
     margin: 20px;
     text-align: center;
-    border-radius: 15px;
     transition: all 0.3s ease-in-out;
     user-select: none;
     opacity: 0.75;
@@ -22,7 +21,6 @@
     width: 550px;
     height: 300px;
     object-fit: cover;
-    border-radius: 0.5rem 0.5rem 0 0;
     padding: 15px;
     transition: all 0.3s ease-in-out;
 }
