@@ -6,7 +6,7 @@ export default function NavLink({ name, path }) {
     
     return (
         <Link key={name} to={path} className={location.pathname === path ? 'active' : ''}>
-        <Button className='navButton' variant="text">{name}</Button>
+        <Button sx={{'&:hover': {backgroundColor: 'transparent'}}} className='navButton' variant="text">{name}</Button>
         </Link>
     );
 }
