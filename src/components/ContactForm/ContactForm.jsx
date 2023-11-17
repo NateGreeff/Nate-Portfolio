@@ -52,7 +52,7 @@ export default function ContactForm({ ...props }) {
         required
         rows={4}
       />
-      <Button type="submit" variant="outlined" onClick={handleSubmit}>
+      <Button type="submit" variant="outlined">
         Submit
       </Button>
     </form>
