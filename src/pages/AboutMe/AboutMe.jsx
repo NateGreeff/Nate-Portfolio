@@ -14,7 +14,7 @@ export default function AboutMe() {
                         <p>Enjoy exploring my work, and witness the evolution of a dedicated Full Stack Developer!</p>
                 </section>
                 <section className="imgSection about background">
-                    <img src="src/assets/img/Photo of Nathan.png" alt="Picture of Nate" />
+                    <img src="https://nategreeff.github.io/My-Web-Portfolio/assets/img/Photo%20of%20Nathan.png" alt="Picture of Nate" />
                 </section>
             </section>
         </>
