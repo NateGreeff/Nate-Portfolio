@@ -3,7 +3,7 @@ footer {
     justify-content: flex-end;
     user-select: none;
     height: 50px;
-    margin: 120px 80px 80px;
+    margin: 2%;
 }
 
 footer div {
@@ -17,4 +17,24 @@ footer div {
     width: 30px;
     height: 30px;
     margin: 0 10px;
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        margin: 20px 0;
+        width: 100vw;
+        height: 80px;
+    }
+    
+    footer div {
+        padding: 0 5px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .icon {
+        scale: 1.5;
+        margin: 0 25px;
+    }
+    
 }

@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 50px
+    margin: 0 3%;
+
 }
 
 .textSection {
@@ -19,4 +20,24 @@
 .imgSection, .imgSection img {
     height: 450px;
     width: 350px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .aboutContainer {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .textSection {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .imgSection {
+        margin: 20px 0 0 0;
+    }
+
+
 }

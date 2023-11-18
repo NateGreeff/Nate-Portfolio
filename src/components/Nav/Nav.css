@@ -8,6 +8,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: end;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
     width: 100%;
@@ -27,4 +28,26 @@ nav ul .navButton {
 nav .active {
     border-right: solid 1px white;
     border-left: solid 1px white;
+}
+
+@media screen and (max-width: 900px) {
+    
+    nav {
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav ul {
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav ul .navButton {
+        font-size: 1rem;
+        margin: 0.6rem;
+    }
+
+    nav .active {
+        border: solid 1px grey;
+    }
 }
