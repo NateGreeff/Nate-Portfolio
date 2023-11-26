@@ -1,6 +1,7 @@
 .projectContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projectContainer:has(.project:hover) .project:not(:hover) {
