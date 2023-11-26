@@ -18,10 +18,10 @@ export default function Header() {
       name: "Contact",
       path: "/Contact",
     },
-    // {
-    //   name: "Resume",
-    //   path: "/Resume",
-    // },
+    {
+      name: "Resume",
+      path: "/Resume",
+    },
   ];
 
   return (

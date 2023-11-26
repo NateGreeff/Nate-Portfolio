@@ -1,31 +1,32 @@
 import './Resume.css';
+import { IoLogoHtml5 , IoLogoCss3 , IoLogoJavascript , IoLogoReact , IoLogoNodejs , IoLogoPython , IoLogoGithub ,} from "react-icons/io5";
+import { DiMysql } from "react-icons/di";
+import { SiMongodb , SiGit } from "react-icons/si";
 
-import './Resume.css';
 
 export default function Resume() {
     const skills = [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Node.js",
-        "Express",
-        "SQL",
-        "MongoDB",
-        "Python",
-        "Git",
-        "GitHub"
+        { technology: "HTML" , icon: <IoLogoHtml5 /> },
+        { technology: "CSS" , icon: <IoLogoCss3 /> },
+        { technology: "JavaScript" , icon: <IoLogoJavascript /> },
+        { technology: "React" , icon: <IoLogoReact /> },
+        { technology: "Node.js" , icon: <IoLogoNodejs /> },
+        { technology: "SQL" , icon: <DiMysql /> },
+        { technology: "MongoDB" , icon: <SiMongodb /> },
+        { technology: "Python" , icon: <IoLogoPython /> },
+        { technology: "Git" , icon:<SiGit /> },
+        { technology: "GitHub" , icon: <IoLogoGithub /> }
     ];
 
     return (
         <div className="resume">
             <div className="skills background">
-                <h2>Skills</h2>
-                <ul>
+                <h2>tech skills</h2>
+                <div className='listedSkills'>
                     {skills.map((skill, index) => (
-                        <li key={index}>{skill}</li>
+                        <div className='skill' key={index}>{skill.icon}{skill.technology}</div>
                     ))}
-                </ul>
+                </div>
             </div>
         </div>
     );
