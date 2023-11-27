@@ -17,9 +17,9 @@ export default function Resume() {
         { technology: "Git" , icon:<SiGit /> },
         { technology: "GitHub" , icon: <IoLogoGithub /> }
     ];
-
     return (
         <div className="resume">
+            <a href="" download><button>Download Resume</button></a>
             <div className="skills background">
                 <h2>tech skills</h2>
                 <div className='listedSkills'>
