@@ -1,9 +1,11 @@
 footer {
     display: flex;
-    justify-content: flex-end;
     user-select: none;
     height: 50px;
     margin: 2%;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
 }
 
 footer div {
@@ -24,6 +26,8 @@ footer div {
         margin: 20px 0;
         width: 100vw;
         height: 80px;
+        position: relative;
+        right: 0;
     }
     
     footer div {
