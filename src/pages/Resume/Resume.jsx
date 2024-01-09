@@ -1,4 +1,6 @@
 import "./Resume.css";
+import { DiMysql } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
 import {
   IoLogoHtml5,
   IoLogoCss3,
@@ -9,7 +11,6 @@ import {
   IoLogoGithub,
   IoLogoSass,
 } from "react-icons/io5";
-import { DiMysql } from "react-icons/di";
 import {
   SiMongodb,
   SiGit,
@@ -26,6 +27,7 @@ export default function Resume() {
     { technology: "Sass", icon: <IoLogoSass /> },
     { technology: "Bootstrap", icon: <SiBootstrap /> },
     { technology: "JavaScript", icon: <IoLogoJavascript /> },
+    { technology: "TypeScript", icon: <SiTypescript /> },
     { technology: "jQuery", icon: <SiJquery /> },
     { technology: "Python", icon: <IoLogoPython /> },
     { technology: "React", icon: <IoLogoReact /> },
