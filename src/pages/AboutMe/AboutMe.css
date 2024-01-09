@@ -20,14 +20,15 @@
 .imgSection, .imgSection img {
     height: 450px;
     width: 350px;
+    max-width: 100%;
 }
 
 
 @media screen and (max-width: 900px) {
     .aboutContainer {
         flex-direction: column;
-        margin: 0;
-        padding: 20px;
+        margin: 10px 0;
+        padding: 0 20px;
     }
 
     .textSection {

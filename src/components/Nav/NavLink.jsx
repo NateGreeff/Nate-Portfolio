@@ -5,8 +5,10 @@ export default function NavLink({ name, path }) {
     const location = useLocation();
     
     return (
+        <li>
         <Link key={name} to={path} className={location.pathname === path ? 'active' : ''}>
         <Button sx={{'&:hover': {backgroundColor: 'transparent'}}} className='navButton' variant="text">{name}</Button>
         </Link>
+        </li>
     );
 }
