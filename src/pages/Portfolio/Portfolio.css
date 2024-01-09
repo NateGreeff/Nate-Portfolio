@@ -1,10 +1,12 @@
 .projectContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.projectContainer:has(.project:hover) .project:not(:hover) {
+@media screen and (min-width: 900px) {
+  .projectContainer:has(.project:hover) .project:not(:hover) {
     opacity: 0.5;
     scale: 0.9;
+  }
 }
