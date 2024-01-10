@@ -34,7 +34,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   padding: 20px;
   font: 2rem "Open Sans", sans-serif;
   @media screen and (max-width: 900px) {
