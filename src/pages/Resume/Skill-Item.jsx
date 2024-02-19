@@ -1,17 +1,17 @@
 import { useState } from 'react';
 
 function getRandomColor() {
-  const letters = '0123456789ABCDEF';
+  const hex = '6789ABCDEF';
   let color = '#';
   for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
+    color += hex[Math.floor(Math.random() * 10)];
   }
   return color;
 }
 
 function SkillItem({ skill }) {
-  const [color, setColor] = useState('white');
-  const [borderColor, setBorderColor] = useState('white');
+  const [color, setColor] = useState('#fff');
+  const [borderColor, setBorderColor] = useState('#fff');
 
   const handleMouseEnter = () => {
     setColor(getRandomColor());
