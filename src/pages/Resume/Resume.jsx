@@ -1,6 +1,7 @@
 import "./Resume.css";
 import { DiMysql } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
+import SkillItem from "./Skill-Item";
 import {
   IoLogoHtml5,
   IoLogoCss3,
@@ -39,6 +40,7 @@ export default function Resume() {
     { technology: "Git", icon: <SiGit /> },
     { technology: "GitHub", icon: <IoLogoGithub /> },
   ];
+
   return (
     <div className="resume">
       {/* <a href="" download><button>Download Resume</button></a> */}
@@ -46,10 +48,7 @@ export default function Resume() {
         <h2>tech skills</h2>
         <div className="listedSkills">
           {skills.map((skill, index) => (
-            <div className="skill" key={index}>
-              {skill.icon}
-              {skill.technology}
-            </div>
+            <SkillItem key={index} skill={skill} />
           ))}
         </div>
       </div>
