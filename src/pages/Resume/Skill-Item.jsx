@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 function getRandomColor() {
-  const hex = '6789ABCDEF';
-  let color = '#';
+  const hex = "6789ABCDEF";
+  let color = "#";
   for (let i = 0; i < 6; i++) {
     color += hex[Math.floor(Math.random() * 10)];
   }
@@ -10,8 +10,8 @@ function getRandomColor() {
 }
 
 function SkillItem({ skill }) {
-  const [color, setColor] = useState('#fff');
-  const [borderColor, setBorderColor] = useState('#fff');
+  const [color, setColor] = useState("#fff");
+  const [borderColor, setBorderColor] = useState("#fff");
 
   const handleMouseEnter = () => {
     setColor(getRandomColor());
@@ -19,7 +19,7 @@ function SkillItem({ skill }) {
   };
 
   return (
-    <div 
+    <div
       style={{ color: color, borderColor: borderColor }}
       className="skill"
       onMouseEnter={handleMouseEnter}

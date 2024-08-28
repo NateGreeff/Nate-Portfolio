@@ -4,6 +4,9 @@ export default function AboutMe() {
     return (
         <>
             <section className="aboutContainer">
+                <section className="imgSection about background">
+                    <img src="https://nategreeff.github.io/My-Web-Portfolio/assets/img/Photo%20of%20Nathan.png" alt="Picture of Nate" />
+                </section>
                 <section className="textSection about background">
                     <h3>Welcome to my portfolio!</h3>
                         <p>I'm Nathan Greeff, a Full Stack Developer with a passion for both learning and applying cutting-edge web technologies.</p>
@@ -12,9 +15,6 @@ export default function AboutMe() {
                         <p>My portfolio showcases a diverse array of projects that reflect my journey and growth as a Full Stack Developer. These projects demonstrate my ability to innovate and adapt, creating impactful and efficient web solutions suited for the ever-evolving demands of the technology sector.</p>
                         <p>Each project is a chapter in my ongoing story of development and growth, illustrating my dedication to mastering the art of web development and my readiness to contribute significantly to the field.</p>
                         <p>Enjoy exploring my work, and witness the evolution of a dedicated Full Stack Developer!</p>
-                </section>
-                <section className="imgSection about background">
-                    <img src="https://nategreeff.github.io/My-Web-Portfolio/assets/img/Photo%20of%20Nathan.png" alt="Picture of Nate" />
                 </section>
             </section>
         </>
