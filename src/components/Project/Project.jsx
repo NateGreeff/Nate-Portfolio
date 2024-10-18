@@ -12,9 +12,11 @@ function Project(props) {
       </a>
       <div className="projectInfo">
         <h3>{name}</h3>
+        {github && (
         <Tooltip title="Visit Repo" arrow>
           <a href={github} target='_blank' rel='noreferrer'><GitHubIcon className="githubIcon" fontSize='large'/></a>
         </Tooltip>
+        )}
       </div>
     </div>
   );

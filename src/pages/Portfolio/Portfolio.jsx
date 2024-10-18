@@ -13,7 +13,7 @@ export default function Portfolio() {
               key={idx}
               name={project.name}
               image={project.image}
-              github={project.github}
+              github={project?.github}
               live={project.live}
             />
           );
